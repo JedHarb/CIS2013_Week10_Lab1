@@ -65,4 +65,4 @@ int main() {
 
 // modifying these pointers within the program allows us to change something, such as the legnth of an array, while the program is running.
 
-// 
+// homework is to do the battle ship game but asking the user for how the size of the board and the number of "hits". Like minesweeper-ish.
