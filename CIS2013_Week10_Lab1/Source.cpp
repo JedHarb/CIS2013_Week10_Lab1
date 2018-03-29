@@ -14,3 +14,4 @@ int main() {
 	cin >> keepAlive; //keep the program from closing the window until the user inputs something
 	return 0;
 }
+
