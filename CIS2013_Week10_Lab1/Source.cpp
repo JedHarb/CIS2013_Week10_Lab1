@@ -16,12 +16,12 @@ int main() {
 
 	int v1;
 	int v2;
-	int *p1; //the star means we are accessing the memory address, looks like hexadecimal
+	int *p1; //the star means we are creating a pointer (which can then be set to a memory address)
 	int *p2;
 
 	v1 = 22;
 	v2 = 33;
-	p1 = &v1; //the & gives us a way to read the memory in that location
+	p1 = &v1; //the & is accessing the memory address, looks like hexadecimal
 	p2 = &v2;
 
 	cout << "p1 is: " << *p1 << endl;
@@ -65,4 +65,4 @@ int main() {
 
 // modifying these pointers within the program allows us to change something, such as the legnth of an array, while the program is running.
 
-//
+// 
